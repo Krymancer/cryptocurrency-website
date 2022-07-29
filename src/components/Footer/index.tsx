@@ -11,7 +11,7 @@ import LogoUrl from '@assets/images/logo.svg';
 
 import VisaUrl from '@assets/images/visa.png';
 import MasterCardUrl from '@assets/images/mastercard.png';
-import BitcoinUrl from '@assets/images/vbitcoinisa.png';
+import BitcoinUrl from '@assets/images/bitcoin.png';
 
 const Footer : Component = () => {
   return <footer class="lg:pt-24 pt-0" data-aos="fade-up" data-aos-offset="400">
