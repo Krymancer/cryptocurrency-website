@@ -89,9 +89,9 @@ const Footer : Component = () => {
             We accept following payment systems
             </h3>
             <div class="flex justify-center items-center gap-6">
-              <img src="src/assets/images/visa.svg" alt="Logo" />
-              <img src="src/assets/images/mastercard.svg" alt="Logo" />
-              <img src="src/assets/images/bitcoin.svg" alt="Logo" />
+              <img src="src/assets/images/visa.png" alt="Logo" />
+              <img src="src/assets/images/mastercard.png" alt="Logo" />
+              <img src="src/assets/images/bitcoin.png" alt="Logo" />
             </div>
           </div>
         </div>
