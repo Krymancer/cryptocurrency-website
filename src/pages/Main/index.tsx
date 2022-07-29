@@ -8,6 +8,11 @@ import Header from '@components/Header';
 import NavbarMobile from '@components/NavbarMobile';
 import Stats from '@components/Stats';
 import Why from '@components/Why';
+import Calculate from '@components/Calculate';
+import Trade from '@components/Trade';
+import Features from '@components/Features';
+import Newsletter from '@components/Newsletter';
+import Footer from '@components/Footer';
 
 const Main : Component = () => {
   AOS.init({duration: 2500, delay: 400});
@@ -22,7 +27,11 @@ const Main : Component = () => {
     </div>
     <Stats />
     <Why />
-    <div class="h-[2000px]" />
+    <Calculate />
+    <Trade />
+    <Features />
+    <Newsletter />
+    <Footer />
   </div>;
 };
 

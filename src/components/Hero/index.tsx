@@ -23,7 +23,7 @@ const Hero : Component = () => {
         </div>
         {/* Hero Image */}
         <div class="flex-1">
-          <img src='src/assets/images/hero-img.png' alt="Hero" data-aos="fade-up" data-aos-delay="600"/>
+          <img src="src/assets/images/hero-img.png" alt="Hero" data-aos="fade-up" data-aos-delay="600"/>
         </div>
       </div>
     </div>
