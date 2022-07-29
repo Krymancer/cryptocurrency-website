@@ -9,7 +9,7 @@ const NewsLetter : Component = () => {
         data-aos="fade-up"
         data-aos-offset="400"
       >
-        {/* text */}
+        {/* Text */}
         <div class="flex-1 w-full">
           <h3 class="h3 mb-4">Start mining now</h3>
           <p class="max-w-[348px] mb-8">

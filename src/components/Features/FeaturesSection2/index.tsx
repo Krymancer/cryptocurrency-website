@@ -4,7 +4,7 @@ const FeaturesSection2 : Component = () => {
   return <section class="py-[30px] lg:py-[120px]">
     <div class="container mx-auto">
       <div class="flex flex-col justify-end items-center lg:flex-row">
-        {/* image */}
+        {/* Image */}
         <div
           class="flex-1 lg:absolute lg:left-0 order-2 lg:order-1"
           data-aos="fade-right"
@@ -12,7 +12,7 @@ const FeaturesSection2 : Component = () => {
         >
           <img src="src/assets/images/feature-2-img.png" alt="" />
         </div>
-        {/* text */}
+        {/* Text */}
         <div
           class="flex-1 max-w-[456px]"
           data-aos="fade-left"

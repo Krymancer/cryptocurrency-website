@@ -3,7 +3,7 @@ import {Component} from 'solid-js';
 const FeatureSection1 : Component = () => {
   return <section class="pb-[30px] lg:pb-[120px] pt-0">
     <div class="flex flex-col lg:flex-row">
-      {/* text */}
+      {/* Text */}
       <div
         class="max-w-[454px] mb-6 lg:mt-10"
         data-aos="fade-right"
@@ -16,7 +16,7 @@ const FeatureSection1 : Component = () => {
         </p>
         <button class="btn px-8">Learn more</button>
       </div>
-      {/* image */}
+      {/* Image */}
       <div
         class="flex-1 flex justify-end"
         data-aos="fade-left"

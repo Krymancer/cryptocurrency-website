@@ -15,7 +15,7 @@ const Trade : Component = () => {
       >
       Trade securely and market the high growth cryptocurrencies.
       </h2>
-      {/* items */}
+      {/* Items */}
       <div
         class="flex flex-col gap-[45px] lg:flex-row"
         data-aos="fade-up"
@@ -31,18 +31,18 @@ const Trade : Component = () => {
 
             >
               <div class="flex flex-col justify-center items-center">
-                {/* item image */}
+                {/* Item image */}
                 <img class="mb-12" src={image} alt="" />
-                {/* item name */}
+                {/* Item name */}
                 <div class="mb-4 flex items-center gap-x-2">
                   <div class="text-[32px] font-bold">{name}</div>
                   <div class="text-lg text-gray-400 font-medium">
                     {abbr}
                   </div>
                 </div>
-                {/* item description */}
+                {/* Item description */}
                 <p class="mb-6 text-center">{description}</p>
-                {/* btn */}
+                {/* Button */}
                 <button
                   class={`${
               name === itemName() ?
