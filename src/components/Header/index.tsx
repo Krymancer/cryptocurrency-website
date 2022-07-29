@@ -4,7 +4,7 @@ import {CgMenuRight} from 'solid-icons/cg';
 import Navbar from '@components/Navbar';
 import AccountButtons from '@components/AccountButtons';
 
-import LogoUrl from 'src/assets/images/logo.svg';
+import LogoUrl from '@assets/images/logo.svg';
 
 interface HeaderProps {
   setNavbarMobile: (open: boolean) => void;
