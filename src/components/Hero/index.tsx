@@ -1,5 +1,8 @@
 import {Component} from 'solid-js';
 
+import heroImageUrl from '@assets/images/hero-img.png';
+import arrowIcon from '@assets/icons/arrow-right-circle.svg';
+
 const Hero : Component = () => {
   return <section>
     <div class="container mx-auto">
@@ -18,12 +21,12 @@ const Hero : Component = () => {
           <p class="max-w-[440px] leading-relaxed mb-8" data-aos="fade-down" data-aos-delay="600">Buy and sell crpyocurrencies, trusted by 10M wallets with over $30 billion in transactions.</p>
           <button class="btn gap-x-6 pl-6 text-sm lg:h-16 lg:text-base" data-aos="fade-down" data-aos-delay="700">
           Try for free
-            <img src="src/assets/icons/arrow-right-circle.svg" alt="Arrow Circle Right" />
+            <img src={arrowIcon} alt="Arrow Circle Right" />
           </button>
         </div>
         {/* Hero Image */}
         <div class="flex-1">
-          <img src="src/assets/images/hero-img.png" alt="Hero" data-aos="fade-up" data-aos-delay="600"/>
+          <img src={heroImageUrl} alt="Hero" data-aos="fade-up" data-aos-delay="600"/>
         </div>
       </div>
     </div>

@@ -7,6 +7,12 @@ import {
   IoLogoLinkedin,
 } from 'solid-icons/io';
 
+import LogoUrl from '@assets/images/logo.svg';
+
+import VisaUrl from '@assets/images/visa.png';
+import MasterCardUrl from '@assets/images/mastercard.png';
+import BitcoinUrl from '@assets/images/vbitcoinisa.png';
+
 const Footer : Component = () => {
   return <footer class="lg:pt-24 pt-0" data-aos="fade-up" data-aos-offset="400">
     <div class="container mx-auto lg:mb-24">
@@ -14,7 +20,7 @@ const Footer : Component = () => {
         {/* Logo */}
         <div class="flex-1 mx-auto lg:mx-0 mb-6 max-w-[285px]">
           <a href="#">
-            <img src="src/assets/images/logo.svg" alt="Logo" />
+            <img src={LogoUrl} alt="Logo" />
           </a>
         </div>
         {/* Link group */}
@@ -89,9 +95,9 @@ const Footer : Component = () => {
             We accept following payment systems
             </h3>
             <div class="flex justify-center items-center gap-6">
-              <img src="src/assets/images/visa.png" alt="Logo" />
-              <img src="src/assets/images/mastercard.png" alt="Logo" />
-              <img src="src/assets/images/bitcoin.png" alt="Logo" />
+              <img src={VisaUrl} alt="Logo" />
+              <img src={MasterCardUrl} alt="Logo" />
+              <img src={BitcoinUrl} alt="Logo" />
             </div>
           </div>
         </div>

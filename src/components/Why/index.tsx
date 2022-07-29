@@ -1,5 +1,7 @@
 import {Component} from 'solid-js';
 
+import whyUrl from '@assets/images/why-img.png';
+
 const Why : Component = () => {
   return <section class="section">
     <div class="container mx-auto">
@@ -8,7 +10,7 @@ const Why : Component = () => {
         <div class="order-2 lg:order-1"
           data-aos="fade-right"
           data-aos-offset='400'>
-          <img src="src/assets/images/why-img.png" alt="Why" />
+          <img src={whyUrl} alt="Why" />
         </div>
         {/* Text */}
         <div class="order-1 lg:order-2 max-w-[480px]"

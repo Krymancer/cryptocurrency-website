@@ -1,5 +1,7 @@
 import {Component} from 'solid-js';
 
+import feature1Url from '@assets/images/feature-1-img.png';
+
 const FeatureSection1 : Component = () => {
   return <section class="pb-[30px] lg:pb-[120px] pt-0">
     <div class="flex flex-col lg:flex-row">
@@ -22,7 +24,7 @@ const FeatureSection1 : Component = () => {
         data-aos="fade-left"
         data-aos-offset="400"
       >
-        <img src="src/assets/images/feature-1-img.png" alt="" />
+        <img src={feature1Url} alt="" />
       </div>
     </div>
   </section>;
