@@ -4,6 +4,8 @@ import {CgMenuRight} from 'solid-icons/cg';
 import Navbar from '@components/Navbar';
 import AccountButtons from '@components/AccountButtons';
 
+import LogoUrl from 'src/assets/images/logo.svg';
+
 interface HeaderProps {
   setNavbarMobile: (open: boolean) => void;
 }
@@ -13,7 +15,7 @@ const Header : Component<HeaderProps> = (props) => {
     <div class="container mx-auto flex items-center justify-between">
       {/* Logo */}
       <a href="#">
-        <img src="src/assets/images/logo.svg" alt="Logo" />
+        <img src={LogoUrl} alt="Logo" />
       </a>
       {/* Nav & Buttons */}
       <div class="hidden lg:flex gap-x-[55px]">
