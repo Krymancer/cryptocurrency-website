@@ -2,7 +2,7 @@
 A simple website that i use to learn about TailwindCSS and Static Assets management with vite.
 
 ## Preview
-![Image](".github/screenshot.png")
+![Image]("https://raw.githubusercontent.com/Krymancer/cryptocurrency-website/main/.github/screenshot.png")
 ## Technologies Used
 - SolidJS
 - TailwindCSS
